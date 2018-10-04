@@ -1,11 +1,10 @@
-# Barnsley fern
+﻿# Barnsley fern
 
-Barnsley fern implemented in **Processing**
+Barnsley fern implemented in **Processing**. <br />
+Sample of **Black Spleenwort**: <br />
+![Sample of Black Spleenwort](snapshots/black_spleenwort_fern_sample.png) <br />
 
-Sample of **Black Spleenwort**:
-![Sample of Black Spleenwort](snapshots/black_spleenwort_fern_sample.png)
-
-Sample of **Thelypteridaceae fern**:
+Sample of **Thelypteridaceae fern**: <br />
 ![Sample of Thelypteridaceae fern](snapshots/thelypteridaceae_fern_sample.png)
 
 ---

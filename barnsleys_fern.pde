@@ -8,8 +8,10 @@ float barnsleyMatrix[][];
 void setup() {
   size(600, 600);
   background(255);
+  
+  frameRate(10000);
  
-  stroke(56, 165, 23);
+  
   strokeWeight(1);
   
   barnsleyMatrix = blackSpleenwortFern;
@@ -17,6 +19,7 @@ void setup() {
 
 void draw() {
   for (int i = 0; i < 100; i++) {
+    stroke(36 + (int)random(50), 140 + (int)random(50), 13 + (int)random(50));
     point(map(x, -2.1820, 2.6558, padding, width - padding), map(y, 0, 9.9983, height - padding, padding)); // Black Spleenwort fern
     //point(map(x, -1.7724, 1.7724, padding, width - padding), map(y, 0, 7.6324, height - padding * 2, padding)); // Thelypteridaceae fern
     getNextPoint(); 
